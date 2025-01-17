@@ -1,4 +1,5 @@
 function isEnoughCapacity(products, containerSize) {
+    //Простіше було б з reduce. Але використав його у наступному завданні
     let totalProducts = 0;
     const quantities = Object.values(products);
   
